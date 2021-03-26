@@ -1,0 +1,350 @@
+body {
+  letter-spacing: 1.8px;
+}
+
+.PageWrapper {
+  background-color: #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.MainWrapper {
+  overflow: hidden;
+  display: block;
+}
+
+.MainWrapper .SectionWrapper {
+  height: auto;
+  text-align: center;
+}
+
+#home {
+  margin: 0 100px 100px 100px;
+  position: relative;
+}
+
+.TopImage {
+  background-image: url(../img/top.png);
+  background-position: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 350px;
+  width: 70vw;
+}
+
+.TopMassage {
+  position: absolute;
+  background-color: #00aa9c;
+  top: 60%;
+  right: 0;
+  width: 300px;
+  padding: 20px;
+  color: #C2DDE4;
+  letter-spacing: 0.4em;
+}
+
+.TopMassage .TopMassage__h1 {
+  font-size: 30px;
+  opacity: 0;
+  color: #C2DDE4;
+}
+
+.TopMassage .TopMassage__h1 span {
+  opacity: 0;
+}
+
+.TopMassage .TopMassage__h2 {
+  font-size: 15px;
+  color: #C2DDE4;
+}
+
+.TopMassage .TopMassage__p {
+  font-size: 17px;
+}
+
+.ImgSize {
+  width: 100%;
+  height: auto;
+}
+
+#about, #skill {
+  margin: 0 100px;
+}
+
+.IconBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AboutText {
+  background-color: #C2DDE4;
+  border-radius: 20px;
+  padding: 25px 20px;
+}
+
+.ContentWrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 970px;
+}
+
+.TableContent {
+  font-size: 18px;
+}
+
+.TableContent .TableContent th, .TableContent .TableContent td {
+  padding: 5px 30px;
+  border: 1px solid #a1a1a1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #4D4D4F;
+}
+
+.ls02 {
+  letter-spacing: 0.2em;
+}
+
+.font-s16 {
+  font-size: 16px;
+}
+
+.font-s20 {
+  font-size: 20px;
+}
+
+.font-s30 {
+  font-size: 30px;
+}
+
+.FontMedium {
+  font-weight: 500;
+}
+
+.FontBold {
+  font-weight: 700;
+}
+
+.SkillIcon {
+  width: 40px;
+  height: auto;
+}
+
+.JqueryIcon {
+  width: 90px;
+  height: auto;
+}
+
+.IconResize {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+  vertical-align: text-top;
+}
+
+.MailWrapper {
+  background-color: #00aa9c;
+  border-radius: 3px;
+  width: 40%;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 35px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+}
+
+.SkillCard {
+  height: 90%;
+  border-radius: 4px;
+  background-color: #C2DDE4;
+  padding: 5px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SkillCard h3 {
+  font-size: 25px;
+}
+
+#works {
+  background-color: #F7E3DA;
+}
+
+.hidden {
+  display: none;
+}
+
+.WorkImage {
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  height: 245px;
+}
+
+.WorkComment {
+  padding-top: 40px;
+  font-size: 15px;
+}
+
+.ResultLink {
+  color: #222222;
+  display: block;
+}
+
+.ResultLink:hover {
+  color: #222222;
+  opacity: 0.6;
+}
+
+.ResultLink p {
+  word-break: break-all;
+}
+
+.pb65 {
+  padding-bottom: 65px;
+}
+
+.ContactForm {
+  border-radius: 15px;
+  background: #C2DDE4;
+  margin: 0 auto;
+  padding: 40px 50px;
+  width: 80%;
+}
+
+.ContactForm .ContactForm__cont {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ContactForm .ContactForm__cont label {
+  display: block;
+}
+
+input.wpcf7-form-control, textarea.wpcf7-form-control {
+  width: 100%;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+  background: #00aa9c;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  font-size: 17px;
+  margin-top: 30px;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 70%;
+  padding: 10px 0;
+  border: none;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+  background: #0099ab;
+}
+
+.button {
+  margin-top: 30px;
+  background: #00aa9c;
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background: #0099ab;
+  color: #fff;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.search-button {
+  width: 20%;
+  background: #00aa9c;
+  color: #fff;
+}
+
+.widget-title {
+  background: #fff;
+  color: #00aa9c;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+.mouseover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 0.6;
+}
+
+.cat-item a {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  font-family: "Montserrat",sans-serif;
+  position: relative;
+  border-bottom: 1px dotted #00aa9c;
+}
+
+input:focus {
+  outline: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .MailWrapper {
+    width: 60%;
+  }
+  .ContactForm {
+    padding: 20px;
+  }
+  .ContactForm .ContactForm__cont {
+    width: 100%;
+  }
+  .TopImage {
+    background-position: 25%;
+    width: 100%;
+    position: relative;
+  }
+  .TopMassage {
+    position: absolute;
+    top: 260px;
+    right: 0;
+  }
+  #home, #about, #skill {
+    margin: 0;
+    position: static;
+  }
+  #home {
+    height: 500px;
+  }
+  .AboutText {
+    margin-top: 10px;
+  }
+}
