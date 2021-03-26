@@ -1,0 +1,295 @@
+.company .section-history, .company .section-overview {
+  margin: 90px 145px 45px 145px;
+}
+
+.company .company-table {
+  width: 100%;
+  margin-top: 100px;
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #1B224C;
+}
+
+.company .company-table th {
+  border-bottom: solid 1px #BB6E40;
+  padding: 27px 0;
+  background-color: #faf4dc;
+}
+
+.company .company-table td {
+  padding: 20px 20px 20px 60px;
+}
+
+.company .section-message {
+  background-color: #F6F6FA;
+  padding: 60px 0;
+}
+
+.company .section-message .message-wrap {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 80%;
+  padding: 50px 0;
+}
+
+.company .section-message .message-wrap p {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.company .section-policy {
+  margin: 90px 130px;
+}
+
+.company .section-policy .post {
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: #E6B422;
+  padding-left: 12px;
+  font-size: 28px;
+  font-family: "Arial";
+}
+
+.company .section-policy .quality-wrap {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.company .section-policy .quality-wrap .quality-box {
+  width: 30%;
+  border: 1px solid #DCDCE3;
+  background-color: #F6F6FA;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.company .section-policy .quality-wrap .quality-box h3 {
+  font-size: 18px;
+  color: #E6B422;
+  line-height: 1.7;
+}
+
+.company .section-policy .quality-wrap .quality-box img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.company .section-policy .policy-wrap {
+  margin: 40px 0;
+}
+
+.company .section-policy .policy-wrap .policy-box {
+  background-color: #F6F6FA;
+  border: 1px solid #DCDCE3;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.company .section-policy .policy-wrap .policy-box .policy-list {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company .section-policy .policy-wrap .policy-box .policy-list img {
+  padding-right: 10px;
+}
+
+.company .section-policy .policy-wrap .policy-box .policy-list h3 {
+  line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  .company.container {
+    padding: 0;
+  }
+  .company .section-history, .company .section-overview {
+    margin: 90px 20px 45px 20px;
+  }
+  .company .company-table {
+    width: 100%;
+    border-collapse: collapse;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 16px;
+  }
+  .company .company-table tr:first-child th {
+    border-top: solid 1px #BB6E40;
+    border-bottom: none;
+  }
+  .company .company-table tr:first-child td {
+    border-top: solid 1px #BB6E40;
+  }
+  .company .company-table th {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+    border-bottom: solid 1px #BB6E40;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .company .company-table td {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    border-bottom: solid 1px #BB6E40;
+  }
+  .company .section-message .message-wrap {
+    width: 90%;
+    padding: 50px 0;
+  }
+  .company .section-message .message-wrap p {
+    padding-top: 70px;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: left;
+  }
+  .company .section-message .message-wrap .sp-br {
+    display: none;
+  }
+  .company .section-policy {
+    margin: 90px 20px;
+  }
+  .company .section-policy .post {
+    font-size: 25px;
+  }
+  .company .section-policy .quality-wrap {
+    margin: 20px 0;
+    display: block;
+  }
+  .company .section-policy .quality-wrap .quality-box {
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  .company .section-policy .quality-wrap .quality-box h3 {
+    font-size: 18px;
+  }
+  .company .section-policy .quality-wrap .quality-box img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .company .section-policy .policy-wrap {
+    display: block;
+    margin: 40px 0;
+  }
+  .company .section-policy .policy-wrap .policy-block {
+    width: 100%;
+  }
+  .company .section-policy .policy-wrap .policy-box {
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .company .section-policy .policy-wrap .policy-box .policy-list img {
+    padding-right: 10px;
+  }
+  .company .section-policy .policy-wrap .policy-box .policy-list h3 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .company .section-history, .company .section-overview {
+    margin: 90px 145px 45px 145px;
+  }
+  .company .company-table {
+    font-size: 18px;
+  }
+  .company .company-table tr:first-child th {
+    border-top: 1px solid #BB6E40;
+  }
+  .company .company-table tr:first-child td {
+    border-top: 1px solid #BB6E40;
+  }
+  .company .company-table th {
+    width: 200px;
+    padding: 27px 0;
+    text-align: center;
+  }
+  .company .company-table td {
+    width: 680px;
+    border-bottom: solid 1px #BB6E40;
+  }
+  .company .section-message .message-wrap {
+    width: 80%;
+    padding: 50px 0;
+  }
+  .company .section-message .message-wrap p {
+    padding-top: 70px;
+    font-size: 18px;
+  }
+  .company .section-policy {
+    margin: 90px 130px;
+  }
+  .company .section-policy .post {
+    font-size: 28px;
+  }
+  .company .section-policy .quality-wrap {
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+  }
+  .company .section-policy .quality-wrap .quality-box {
+    width: 30%;
+    padding: 25px;
+  }
+  .company .section-policy .quality-wrap .quality-box h3 {
+    font-size: 18px;
+  }
+  .company .section-policy .quality-wrap .quality-box img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .company .section-policy .policy-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 40px 0;
+  }
+  .company .section-policy .policy-wrap .policy-block {
+    width: 48%;
+  }
+  .company .section-policy .policy-wrap .policy-box {
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .company .section-policy .policy-wrap .policy-box .policy-list img {
+    padding-right: 10px;
+  }
+  .company .section-policy .policy-wrap .policy-box .policy-list h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,50 @@
+.recruit {
+    .section-recruit {
+        background: #FFBD59;
+        text-align: center;
+
+        p {
+            padding-top: 30px;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .recruit {
+        .section-recruit {
+            width: 80%;
+            margin: 80px auto;
+            padding: 20px;
+
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 1.7;
+                letter-spacing: 0.05em;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .recruit {
+        .section-recruit {
+            width: 800px;
+            margin: 100px auto;
+            padding: 30px;
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.7;
+                letter-spacing: 0.05em;
+            }
+        }
+    }
+}

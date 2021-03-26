@@ -1,0 +1,264 @@
+.contact .c-mainv, .contact .d-mainv {
+  padding-top: 75px;
+  padding-bottom: 95px;
+}
+
+.contact .c-mainv > span, .contact .d-mainv > span {
+  display: block;
+  color: #F25043;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 1.35;
+}
+
+.contact .c-mainv > span:before, .contact .d-mainv > span:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -28px;
+  display: inline-block;
+  width: 180px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #383838;
+}
+
+.contact .c-mainv h1, .contact .d-mainv h1 {
+  color: #3E3E3E;
+  text-align: center;
+  letter-spacing: 0.08em;
+  line-height: 1.35;
+}
+
+.contact .c-mainv .title-blue, .contact .d-mainv .title-blue {
+  color: #E6B422;
+}
+
+.contact .c-mainv > p, .contact .d-mainv > p {
+  margin-bottom: 75px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #3E3E3E;
+  line-height: 1.35;
+}
+
+.contact .c-mainv .form-group, .contact .d-mainv .form-group {
+  text-align: left;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  margin-bottom: 23px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact .c-mainv .form-group .required, .contact .d-mainv .form-group .required {
+  color: #F25043;
+}
+
+.contact .c-mainv .form-group input, .contact .c-mainv .form-group select, .contact .c-mainv .form-group textarea, .contact .d-mainv .form-group input, .contact .d-mainv .form-group select, .contact .d-mainv .form-group textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #707070;
+  border-radius: 0;
+  margin-top: 4px;
+  padding: 20px 18px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact .c-mainv .form-group textarea, .contact .d-mainv .form-group textarea {
+  height: 260px;
+  resize: none;
+}
+
+.contact .c-mainv .form-group select, .contact .d-mainv .form-group select {
+  background: transparent url(../../common/img/select-arrow.svg) no-repeat center right 13px/16px 14px;
+}
+
+.contact .c-mainv .confirm, .contact .d-mainv .confirm {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact .c-mainv .your-consent, .contact .d-mainv .your-consent {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact .c-mainv .your-consent input, .contact .d-mainv .your-consent input {
+  vertical-align: text-bottom;
+}
+
+.contact .c-mainv .your-consent .wpcf7-list-item, .contact .d-mainv .your-consent .wpcf7-list-item {
+  margin: 0;
+}
+
+.contact .c-mainv .submit-wrap, .contact .d-mainv .submit-wrap {
+  position: relative;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+  margin: 50px auto 0;
+  max-width: 300px;
+  height: 60px;
+}
+
+.contact .c-mainv .submit-wrap > span, .contact .d-mainv .submit-wrap > span {
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 56px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  pointer-events: none;
+}
+
+.contact .c-mainv .submit-wrap > span:nth-child(1), .contact .d-mainv .submit-wrap > span:nth-child(1) {
+  background-color: #ffffff;
+  color: #FFE500;
+  border: 1px solid #FFE500;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -30px;
+  transform-origin: 50% 50% -30px;
+  opacity: 0;
+}
+
+.contact .c-mainv .submit-wrap > span:nth-child(2), .contact .d-mainv .submit-wrap > span:nth-child(2) {
+  background-color: #FFE500;
+  color: #ffffff;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -30px;
+  transform-origin: 50% 50% -30px;
+  z-index: 999;
+}
+
+.contact .c-mainv .submit-wrap span, .contact .d-mainv .submit-wrap span {
+  pointer-events: all;
+}
+
+.contact .c-mainv .submit-wrap .wpcf7-submit, .contact .d-mainv .submit-wrap .wpcf7-submit {
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  height: 100%;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+
+.contact .c-mainv .wpcf7-form p, .contact .d-mainv .wpcf7-form p {
+  margin-bottom: 25px;
+}
+
+.contact .form-wrap .d-imgwrap img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .contact.container {
+    width: 100%;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .contact .c-mainv h1 {
+    font-size: 30px;
+  }
+  .contact .form-group {
+    width: 100%;
+    text-align: left;
+  }
+  .contact .submit-wrap > span:nth-child(1) {
+    background-color: #FFE500;
+    color: #ffffff;
+  }
+  .contact .submit-wrap > span:nth-child(2) {
+    background-color: #FFE500;
+    color: #ffffff;
+  }
+  .contact .d-imgwrap {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact .c-mainv {
+    margin: 0 360px;
+  }
+  .contact .c-mainv h1 {
+    font-size: 32px;
+  }
+  .contact .d-mainv {
+    margin: 0 145px;
+  }
+  .contact .d-mainv h1 {
+    font-size: 32px;
+  }
+  .contact .form-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contact .form-wrap .d-imgwrap {
+    width: 48%;
+  }
+  .contact .form-wrap .wpcf7 {
+    width: 48%;
+  }
+  .contact .form-group {
+    font-size: 15px;
+    width: 100%;
+  }
+  .contact .form-group input, .contact .form-group select, .contact .form-group textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #707070;
+    border-radius: 0;
+    margin-top: 4px;
+    padding: 20px 18px;
+    width: 100%;
+  }
+  .contact .form-group select {
+    background-position: center right 26px;
+  }
+  .contact .submit-wrap:hover {
+    cursor: pointer;
+  }
+  .contact .submit-wrap:hover > span:nth-child(1) {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    z-index: 1000;
+  }
+  .contact .submit-wrap:hover > span:nth-child(2) {
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+  }
+}

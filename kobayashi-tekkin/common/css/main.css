@@ -1,0 +1,285 @@
+body {
+  letter-spacing: 1.8px;
+}
+
+.PageWrapper {
+  background-color: #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.Hamburger {
+  background-image: url(../hamburger.svg);
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 10;
+}
+
+.HamburgerWrapper {
+  width: 100%;
+  position: absolute;
+  background-color: #fff;
+}
+
+.HamburgerWrapper .HamburgerWrapper__ul {
+  padding-left: 70px;
+}
+
+.HamburgerWrapper .HamburgerWrapper__ul .HamburgerWrapper__li {
+  list-style: none;
+}
+
+.HamburgerWrapper .HamburgerWrapper__ul .HamburgerWrapper__li .HamburgerWrapper__a {
+  color: #a1a1a1;
+}
+
+.HeaderWrapper {
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.HeaderWrapper .HeaderWrapper__position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 70px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 92.1875%;
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.NavWrapper {
+  height: 100%;
+  font-size: 14px;
+  line-height: 70px;
+  display: block;
+}
+
+.NavWrapper .NavWrapper__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.NavWrapper .NavWrapper__ul .NavWrapper__li {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  list-style: none;
+  padding: 0 15px;
+}
+
+.NavWrapper .NavWrapper__ul .NavWrapper__li:hover {
+  background-color: #00aa9c;
+  cursor: pointer;
+}
+
+.NavWrapper .NavWrapper__ul .NavWrapper__li .NavWrapper__a {
+  display: block;
+  width: 100%;
+  color: #000;
+}
+
+.NavWrapper .NavWrapper__ul .NavWrapper__li .NavWrapper__a:hover {
+  text-decoration: none;
+}
+
+.MainWrapper {
+  overflow: hidden;
+  display: block;
+}
+
+.MainWrapper .SectionWrapper {
+  height: auto;
+  text-align: center;
+}
+
+.ImgSize {
+  width: 100%;
+  height: auto;
+}
+
+.TopMassage {
+  color: #fff;
+}
+
+.ContentWrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 970px;
+}
+
+.TableContent {
+  font-size: 18px;
+}
+
+.TableContent th, .TableContent td {
+  padding: 5px 30px;
+  border: 1px solid #a1a1a1;
+}
+
+.FooterWrapper {
+  background-color: #000000;
+  color: #a1a1a1;
+  width: 100%;
+  padding: 20px;
+}
+
+.FooterWrapper .FooterWrapper__copyright {
+  text-align: right;
+  font-size: 12px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.font-s16 {
+  font-size: 16px;
+}
+
+.font-s20 {
+  font-size: 20px;
+}
+
+.font-s30 {
+  font-size: 30px;
+}
+
+.FontMedium {
+  font-weight: 500;
+}
+
+.FontBold {
+  font-weight: 700;
+}
+
+.BorderGreen {
+  border-bottom: 3px solid #00aa9c;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.TwitterIcon {
+  width: 50px;
+  height: auto;
+}
+
+.FacebookIcon {
+  width: 30px;
+  height: auto;
+}
+
+.SkillIcon {
+  width: 40px;
+  height: auto;
+}
+
+.JqueryIcon {
+  width: 90px;
+  height: auto;
+}
+
+.IconResize {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.TopImage {
+  height: 100vh;
+  background-image: url(../top.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 190px 0px;
+}
+
+.MailWrapper {
+  background-color: #00aa9c;
+  border-radius: 3px;
+  width: 40%;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 35px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+}
+
+.SkillImage {
+  background-image: url(../pc-image.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.SkillCard {
+  height: 90%;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.BgGray {
+  background-color: #dcdcdc;
+}
+
+.WorkImage {
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  height: 245px;
+}
+
+.ResultLink {
+  color: #222222;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .BorderGreen {
+    border-bottom: 3px solid #00aa9c;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .MailWrapper {
+    width: 60%;
+  }
+}
+
+.pb65 {
+  padding-bottom: 65px;
+}

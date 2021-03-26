@@ -1,0 +1,203 @@
+.footer {
+    .footer-meta {
+        color: #2C2C2E;
+        font-size: 16px;
+        font-weight: normal;
+        
+        address {
+            font-style: normal;
+        }
+        .footer-meta-logo {
+            display: block;
+            width: 20%;
+        }
+    }
+    .left-container {
+        a {
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+        }
+        .c-name {
+            color: #3e3e3e;
+        }
+    }
+    .address-wrap {
+        margin-top: 15px;
+        line-height: 1.6;
+    }
+
+    .footer-navwrap {
+        width: 55%;
+        background-color: #FFBD59;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        li {
+            padding: 15px 0;
+            line-height: 1.35;
+            &:hover {
+                opacity: 0.6;
+            }
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .copyright {
+        text-align: right;
+        color: #ffffff;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer {
+        .footer-container {
+            display: block;
+        }
+        .footer-meta {
+            width: 100%;
+            background-position: left 0% bottom -10px;
+            background-size: 74%;
+    
+            .left-container {
+                padding: 70px 20px;
+                text-align: center;
+                .c-name {
+                    font-size: 22px;
+                }
+            }
+            .footer-address {
+                font-size: 15px;
+            }
+    
+            .footer-meta-logo {
+                display: block;
+                width: 20%;
+            }
+        }
+        .footer-navwrap {
+            width: 100%;
+            margin-top: 45px;
+        }
+        .icon-wrap {
+            padding: 0 20px 30px 20px;
+            a {
+                margin-right: 25px;
+                cursor: pointer;
+            }
+        }
+        .menu {
+            padding: 20px;
+            font-size: 11px;
+            
+            li {
+                padding: 15px 0;
+                line-height: 1.35;
+                &:hover {
+                    opacity: 0.6;
+                }
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 12px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .footer {
+        .footer-container {
+            display: flex;
+            height: 350px;
+            justify-content: space-between;
+        }
+        .footer-meta {
+            width: 44%;
+            background-position: left 0% bottom 14px;
+            background-size: 70%;
+                
+    
+            .left-container {
+                padding: 50px;
+                .c-name {
+                    font-size: 30px;
+                }
+            }
+    
+            .footer-meta-logo {
+                display: block;
+                width: 27%;
+                padding-top: 15px;
+            }
+        }
+        .footer-main {
+            display: flex;
+            justify-content: space-between;
+            .address-wrap {
+                display: flex;
+                justify-content: space-between;
+                width: 55%;
+            }
+            .footer-navwrap {
+                width: 35%;
+            }
+        }
+        .copyright {
+            font-size: 13px;
+            margin-bottom: 40px;
+            margin-right: 45px;
+        }
+        .footer-navwrap {
+            width: 55%;
+            margin-top: 50px;
+        }
+        .icon-wrap {
+            padding: 0 110px;
+            a {
+                margin-right: 25px;
+                cursor: pointer;
+            }
+        }
+        .menu {
+            padding: 0 110px;
+            margin-top: 60px;
+            li {
+                padding: 15px 0;
+                line-height: 1.35;
+                &:hover {
+                    opacity: 0.6;
+                }
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

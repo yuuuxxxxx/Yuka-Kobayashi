@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/company.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/contact.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/normalize.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/case-study.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/front.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/header.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/footer.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/common.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/swiper.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/news.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/common/css/recruit.css">

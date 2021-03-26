@@ -1,0 +1,469 @@
+h1,h2,h3,h4,p {
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: '游ゴシック体','Arial','Proxima Nova','Avenir Next','Roboto', sans-serif;
+}
+
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.breadcrumb-area {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "Arial";
+    font-weight: bold;
+    a {
+        color: #ffffff;
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
+.single-footer {
+    padding-top: 10px;
+    a {
+        text-decoration: none;
+        color: #3E3E3E;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &:hover {
+            opacity: 0.6;
+        }
+        span {
+            margin-left: 8px;
+        }
+    }
+}
+
+.mainv {
+    width: 100%;
+    position: relative;
+    background: url(../../common/img/header-top.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    &::before {
+        content: ' ';
+        background-color: rgba(101, 122, 24, 0.3);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    h1 {
+        position: absolute;
+        display: block;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 0.08em;
+        line-height: 1.35;
+        font-weight: normal;
+        font-weight: bold;
+        font-family: "Arial";
+    }
+}
+.headline {
+    position: relative;
+    text-align: center;
+    font-family: "Arial";
+    &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -28px;
+        display: inline-block;
+        width: 100px;
+        height: 5px;
+        -webkit-transform: translateX(-50%);
+        transform: translate(-50%);
+        background-color: #E6B422;
+    }
+}
+
+// 会社と品質保証へのリンクセクション
+.section-link {
+    position: relative;
+    height: 750px;
+    .company-wrap {
+        background-color: #F6F6FA;
+        width: 80%;
+        height: 420px;
+    }
+    .warranty-wrap {
+        background-color: #F6F6FA;
+        width: 35%;
+        height: 400px;
+        position: absolute;
+        right: 0;
+        bottom: -50%;
+        z-index: -1;
+    }
+    .img-wrap {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .arrow-button {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        background-color: #6AA7B1;
+        position: absolute;
+
+        > span {
+            font-size: 18px;
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            line-height: 3.5;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+            pointer-events: none;
+            &:nth-child(1){
+                background-color: #ffffff;
+                -webkit-transform: rotateX(90deg);
+                -moz-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+                -webkit-transform-origin: 50% 50% -30px;
+                -moz-transform-origin: 50% 50% -30px;
+                -ms-transform-origin: 50% 50% -30px;
+                transform-origin: 50% 50% -30px;
+                opacity: 0; 
+            }
+            &:nth-child(2){
+                background-color: #6AA7B1;
+                -webkit-transform: rotateX(0deg);
+                -moz-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                -webkit-transform-origin: 50% 50% -30px;
+                -moz-transform-origin: 50% 50% -30px;
+                -ms-transform-origin: 50% 50% -30px;
+                transform-origin: 50% 50% -30px;
+                z-index: 999;
+            }
+        }
+        span {
+            pointer-events: all;
+        }
+    }
+}
+
+// ページャ
+.pager {
+    text-align: center;
+    margin: 30px 0 80px 0;
+    span {
+        display: inline-block;
+        font-family: 'Avenir Next';
+        background-color: #E6B422;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 2;
+        margin: 0 6px;
+    }
+    a {
+        color: #E6B422;
+        text-decoration: none;
+    }
+    a.page-numbers {
+        font-size: 14px;
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        margin: 0 6px;
+        line-height: 2;
+        &:hover {
+            display: inline-block;
+            font-family: 'Avenir Next';
+            background-color: #E6B422;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            color: #ffffff;
+            font-size: 14px;
+            line-height: 2;
+        }
+    }
+    .page-numbers.next {
+        color: #ffffff;
+        position: relative;
+        &:hover {
+            color: #E6B422;
+            &:before {
+                height: 100%;
+                top: 0;
+                left: 0;
+                width: 100%;
+                content: '';
+                position: absolute;
+                background: center/13px 5px no-repeat url(../../common/img/pager-arrow-white.svg);  
+            }
+        }
+        &::before {
+            background: center/13px 5px no-repeat url(../../common/img/pager-arrow.svg);
+            content: '';
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+    .page-numbers.prev {
+        color: #ffffff;
+        position: relative;
+        &:hover {
+            color: #E6B422;
+            &:before {
+                height: 100%;
+                top: 0;
+                left: 0;
+                width: 100%;
+                content: '';
+                position: absolute;
+                background: center/13px 5px no-repeat url(../../common/img/pager-arrow-left-white.svg);  
+            }
+        }
+        &::before {
+            background: center/13px 5px no-repeat url(../../common/img/pager-arrow-left.svg);
+            content: '';
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width:767px) {
+    .mainv {
+        h1 {
+            font-size: 30px;
+            top: 40%;
+        }
+    }
+    .section-link {
+        position: relative;
+        height: 800px;
+        .company-wrap {
+            background-color: #F6F6FA;
+            width: 80%;
+        }
+        .warranty-wrap {
+            width: 35%;
+            height: 400px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        .img-wrap {
+            position: absolute;
+            top: 5%;
+            width: 100%;
+            .img-innerwrap {
+                display: block;
+                margin: 0 20px;
+            }
+        }
+        .company-img {
+            width: 100%;
+            height: 340px;
+            &::before {
+                content: ' ';
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+        }
+        .warranty-img {
+            top: 30px;
+            width: 100%;
+            height: 340px;
+            &::before {
+                content: ' ';
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+            }
+        }
+        .company-img, .warranty-img {
+            
+            .text-wrap {
+                position: absolute;
+                top: 30px;
+                left: 15px;
+            }
+            h3 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+                padding-top: 18px;
+                padding-right: 40px;
+            }
+        }
+        .arrow-button {
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    body {
+        width: 100%;
+        min-width: 1280px;
+    }
+    .mainv {
+        h1 {
+            font-size: 34px;
+            top: 40%;
+        }
+    }
+    .headline {
+        font-size: 32px;
+    }
+    .arrow-button {
+        bottom: 0;
+        right: 0;
+        &:hover{
+            cursor: pointer;
+            > span {
+                &:nth-child(1){
+                    opacity: 1;
+                    -webkit-transform: rotateX(0deg);
+                    transform: rotateX(0deg);
+                    z-index: 1000; 
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                    -webkit-transform: rotateX(-90deg);
+                    transform: rotateX(-90deg); 
+                }
+            }
+        }
+    }
+    .section-link {
+        position: relative;
+        .company-wrap {
+            width: 80%;
+            height: 420px;
+        }
+        .warranty-wrap {
+            width: 35%;
+            height: 400px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        .img-wrap {
+            position: absolute;
+            top: 20%;
+            width: 100%;
+            .img-innerwrap {
+                display: flex;
+                justify-content: center;
+                margin: 0 95px;
+            }
+        }
+        .company-img {
+            margin-right: 0;
+            width: 50%;
+            height: 390px;
+            &::before {
+                content: ' ';
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+                width: 100%;
+            }
+        }
+        .warranty-img {
+            margin-left: 0;
+            width: 50%;
+            height: 390px;
+            top: 60px;
+            &::before {
+                content: ' ';
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+                width: 100%;
+            }
+        }
+        .company-img, .warranty-img {
+            overflow: hidden;
+            .img-effect {
+                &:hover {
+                    transform: scale(1.1);
+                    &::before {
+                        opacity: 1;
+                    }
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); /* 円形グラデーション */
+                    transition-duration: 0.3s;
+                    opacity: 0;
+                }
+            }
+            .text-wrap {
+                position: absolute;
+                top: 35px;
+                left: 40px;
+            }
+            h3 {
+                font-size: 28px;
+            }
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}

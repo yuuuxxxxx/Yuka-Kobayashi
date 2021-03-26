@@ -1,0 +1,437 @@
+.header {
+  width: 100%;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .header-innerwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .header-innerwrap .logo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .header-innerwrap .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3E3E3E;
+}
+
+.header .nav-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header .contact-btn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .contact-btn-wrap .document-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 130px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  -webkit-perspective: 130px;
+  perspective: 130px;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.header .contact-btn-wrap .document-button > span {
+  font-size: 11px;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 130px;
+  height: 90px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  pointer-events: none;
+}
+
+.header .contact-btn-wrap .document-button > span:nth-child(1) {
+  background-color: #ffffff;
+  color: #FFE500;
+  border: 1px solid #FFE500;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -30px;
+  transform-origin: 50% 50% -30px;
+  opacity: 0;
+}
+
+.header .contact-btn-wrap .document-button > span:nth-child(2) {
+  background-color: #FFE500;
+  color: #ffffff;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -30px;
+  transform-origin: 50% 50% -30px;
+  z-index: 999;
+}
+
+.header .contact-btn-wrap .document-button span {
+  pointer-events: all;
+}
+
+.header .contact-button {
+  color: #ffffff;
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 130px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #E6B422;
+  -webkit-perspective: 130px;
+  perspective: 130px;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.header .contact-button > span {
+  font-size: 11px;
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 90px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  pointer-events: none;
+}
+
+.header .contact-button > span:nth-child(1) {
+  background-color: #ffffff;
+  color: #E6B422;
+  border: 1px solid #E6B422;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -30px;
+  transform-origin: 50% 50% -30px;
+  opacity: 0;
+}
+
+.header .contact-button > span:nth-child(2) {
+  background-color: #E6B422;
+  color: #ffffff;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -30px;
+  transform-origin: 50% 50% -30px;
+  z-index: 999;
+}
+
+.header .contact-button span {
+  pointer-events: all;
+}
+
+.header .contact-text {
+  position: absolute;
+  font-family: proxima-nova, sans-serif;
+}
+
+.header .pc-menu {
+  width: 100%;
+}
+
+.header .menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.header .menu a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header .menu a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 16px 20px 6px 20px;
+  }
+  .header .nav-wrap {
+    width: 35%;
+  }
+  .header .header-innerwrap {
+    position: relative;
+    height: 85%;
+  }
+  .header .header-innerwrap .logo-wrap {
+    width: 65%;
+  }
+  .header .header-innerwrap .logo-wrap .logo {
+    width: 200px;
+  }
+  .header .header-innerwrap .logo-wrap img {
+    width: 50%;
+  }
+  .header .header-innerwrap .logo-wrap .c-name {
+    font-size: 20px;
+  }
+  .header .header-innerwrap .pc-menu, .header .header-innerwrap .contact-btn-wrap {
+    display: none;
+  }
+  .header .header-innerwrap .menu-trigger {
+    width: 50px;
+    height: 50px;
+    z-index: 11;
+    background: #E6B422;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+  }
+  .header .header-innerwrap .menu-trigger span {
+    position: absolute;
+    background: #fff;
+    width: 30px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-block;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+  }
+  .header .header-innerwrap .menu-trigger span:nth-of-type(1) {
+    top: 15px;
+  }
+  .header .header-innerwrap .menu-trigger span:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+  }
+  .header .header-innerwrap .menu-trigger span:nth-of-type(3) {
+    bottom: 15px;
+  }
+  .header .header-innerwrap .menu-trigger.active span:nth-of-type(1) {
+    -webkit-transform: translateY(9px) rotate(-45deg);
+            transform: translateY(9px) rotate(-45deg);
+  }
+  .header .header-innerwrap .menu-trigger.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .header .header-innerwrap .menu-trigger.active span:nth-of-type(3) {
+    -webkit-transform: translateY(-9px) rotate(45deg);
+            transform: translateY(-9px) rotate(45deg);
+  }
+  .header .sp-menu {
+    background: #E6B422;
+    left: 0;
+    overflow: scroll;
+    top: 106px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+  }
+  .header .sp-menu .menu-item {
+    border-bottom: 1px solid #fff;
+  }
+  .header .sp-menu .menu-item a {
+    color: #ffffff;
+    padding: 24px 16px;
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .nav-wrap {
+    width: 65%;
+    height: 100%;
+  }
+  .header .header-innerwrap {
+    height: 90px;
+  }
+  .header .logo-wrap {
+    width: 35%;
+    padding-left: 20px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .header .logo-wrap img {
+    width: 100px;
+  }
+  .header .logo-wrap p {
+    font-size: 9px;
+    color: #898989;
+    font-family: "Arial";
+  }
+  .header .logo-wrap .c-name {
+    font-size: 30px;
+  }
+  .header .pc-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .phone-contact {
+    width: 170px;
+    height: 35px;
+    border: 1px solid #E6B422;
+    margin-left: auto;
+    margin-right: 5%;
+    padding: 2px 8px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Arial";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header .phone-info-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .phone-info-wrap .hours {
+    font-size: 9px;
+    color: #939393;
+    display: block;
+  }
+  .header .phone-info-wrap .num {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E6B422;
+  }
+  .header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 0;
+    margin-right: 2.5%;
+  }
+  .header .menu a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #3E3E3E;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .header .menu a:hover {
+    border-bottom: 5px solid #e6b422;
+  }
+  .header .contact-btn-wrap .header-contact {
+    width: 130px;
+    height: 90px;
+  }
+  .header .contact-btn-wrap .header-contact:hover::before {
+    background: center/31px 35px no-repeat url(../../common/img/header-contact.svg);
+  }
+  .header .contact-btn-wrap .header-contact::before {
+    left: 36%;
+    top: 12%;
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 35px;
+    background: center/31px 35px no-repeat url(../../common/img/header-contact-white.svg);
+  }
+  .header .document-button:hover, .header .contact-button:hover {
+    cursor: pointer;
+  }
+  .header .document-button:hover > span:nth-child(1), .header .contact-button:hover > span:nth-child(1) {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    z-index: 1000;
+  }
+  .header .document-button:hover > span:nth-child(2), .header .contact-button:hover > span:nth-child(2) {
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+  }
+}
